@@ -1,0 +1,71 @@
+.x {
+  display: none;
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 25px;
+  }
+  .header-right a {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  
+  
+  .header-right {
+    display:none;
+  }
+
+  .x {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    text-align:left;
+    font-size: 24px;
+    line-height:36px; 
+  }
+  .top-wrapper .or {
+    text-align:left;
+    font-size: 14px;
+    line-height:20px; 
+  }
+  
+  footer {
+    text-align:center;
+  }
+
+  .iframe-container{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 46.25%; 
+  height: 0;
+}
+}
+
+
+@media all and (max-width: 770px) {
+  .header-right a {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 5px;
+  }
+  .iframe-container{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+}
