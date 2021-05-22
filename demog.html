@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+   <style type="text/css">
+      .top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ), url(images/crowd.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+    </style>
   </head>
   <body>
     <header>
@@ -39,8 +53,6 @@
       <div class="container">
         <h1>DEMOGRAPHICS AFFECTING MENTAL HEALTH</h1>
         <p class="or">Please note that the content on this webpage is provided for general information only.</p>
-        <p class="or">They are not intended to, and does not, amount to advice which you should rely on.</p>
-        <p class ="or">They are not in any way an alternative to specific advice.</p>
       </div>
     </div>
 
@@ -138,17 +150,17 @@
       </div>
     </main>
 
-      <!--<div class="contact-form">
+      <div class="contact-form">
         <h2>Contact us</h2>
-        <div class ="text">
-          <p>* Email</p>
-          <input>
-          <p>* Message</p>
-          <textarea></textarea>
-          <p>* Required fields must be filled</p>
-          <input class="submit" type = submit value = Send>
-        </div>
-      </div>-->
+        <form name="contact" method="POST" data-netlify="true">
+          <p>Email *</p>
+          <input type="email" name="email" />
+          <p>Message *</p>
+          <textarea name="message" placeholder="Your suggestions/queries..."></textarea>
+          <p class="require">* Required fields must be filled</p>
+          <button class="submit" type = submit>Send</button>
+        </form>
+      </div>
 
     <footer>
       <div class="container">

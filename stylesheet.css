@@ -34,36 +34,15 @@ a {
 
 .top-wrapper h1 {
   opacity: 1;
-  font-size: 40px;
-  letter-spacing: 2px;
-  margin-bottom: 40px;
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  line-height: 60px;
 }
 
 .top-wrapper p {
   opacity: 0.4;
   margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
 }
 
 header {
@@ -175,14 +154,10 @@ main {
   font-size: 25px;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-/*
 .contact-form {
   margin: 20px 80px;
+  padding: 0 65px;
+  margin: 0 auto;
 }
 
 .contact-form h2 {
@@ -193,7 +168,7 @@ main {
   border-bottom: 1px solid #dee7ec;
 }
 
-input, textarea {
+input, textarea{
   width:350px;
   padding: 10px;
   border: 1px solid #dee7ec;
@@ -202,11 +177,32 @@ input, textarea {
   font-size:18px;
 }
 
-.submit {
-  color:#889eab;
-  background-color:#dee7ec;
+::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: "Arial";
+  opacity: 0.5;
 }
-*/
+
+.require {
+  font-size: 15px;
+  color: black;
+  opacity: 0.5;
+}
+.submit {
+  width:350px;
+  padding: 10px;
+  border: 1px solid #b7e4eb;
+  margin-top:10px;
+  margin-bottom:30px;
+  font-size:18px;
+  color:white;
+  background-color:#b7e4eb;
+}
+
+.contact-form button:hover {
+  background-color:#89dde8;
+}
+
 
 footer img {
   width: 150px;
@@ -228,6 +224,7 @@ footer {
   padding-bottom: 20px;
   box-shadow:0 0 10px 5px rgba(0, 0, 0, 0.40);
 }
+
 .iframe-container{
   position: relative;
   width: 60%;
