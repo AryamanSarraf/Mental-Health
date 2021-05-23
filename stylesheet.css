@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 ul { padding-left: 20px; }
 
+
 body {
   font-family: "Lucida Grande";
 }
@@ -211,6 +212,7 @@ footer img {
 footer p {
   color: black;
   font-size: 12px;
+  opacity: 0.8;
 }
 
 footer .name {
